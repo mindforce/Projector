@@ -9,13 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    
+   
     
     @IBAction func btnLogout(sender: UIButton) {
         var defaultData : NSUserDefaults = NSUserDefaults.standardUserDefaults()
         
-        var api_key = defaultData.valueForKey("") as? String
+        defaultData.setObject(nil, forKey: "API_KEY")
         defaultData.synchronize()
         self.performSegueWithIdentifier("go_to_login", sender: self)
     }
@@ -23,20 +22,19 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(true)
         
+        
         var defaultData : NSUserDefaults = NSUserDefaults.standardUserDefaults()
         
-        var api_key = defaultData.valueForKey("API_KEY") as? String
+        var api_key: AnyObject? = defaultData.valueForKey("API_KEY")
         if api_key == nil {
             self.performSegueWithIdentifier("go_to_login", sender: self)
         }
+        
     }
 
     override func didReceiveMemoryWarning() {
