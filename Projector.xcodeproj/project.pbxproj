@@ -226,7 +226,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Volodymyr Tymofiychuk";
+				ORGANIZATIONNAME = "LuxSite s.r.o.";
 				TargetAttributes = {
 					2DEBD9481A65704A005268EC = {
 						CreatedOnToolsVersion = 6.1.1;
