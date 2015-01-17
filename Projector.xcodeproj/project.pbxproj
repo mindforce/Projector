@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D04E4261A6ABE7F004727A4 /* MembershipsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D04E4251A6ABE7F004727A4 /* MembershipsTableViewController.swift */; };
+		2D04E4281A6AC0DD004727A4 /* MembershipsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D04E4271A6AC0DD004727A4 /* MembershipsTableViewCell.swift */; };
+		2D219C321A668BD5001C39E6 /* ProjectsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D219C311A668BD5001C39E6 /* ProjectsTableViewCell.swift */; };
+		2D219C341A669269001C39E6 /* IssuesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D219C331A669269001C39E6 /* IssuesTableViewController.swift */; };
+		2D219C361A6692CC001C39E6 /* IssuesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D219C351A6692CC001C39E6 /* IssuesTableViewCell.swift */; };
+		2D219C381A66A6D6001C39E6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D219C371A66A6D6001C39E6 /* SwiftyJSON.swift */; };
+		2D219C941A66B72B001C39E6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D219C931A66B72B001C39E6 /* LoginViewController.swift */; };
+		2D219C9B1A67C1B8001C39E6 /* ProjecData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D219C9A1A67C1B8001C39E6 /* ProjecData.swift */; };
+		2D219C9D1A67CCD6001C39E6 /* ProjectTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D219C9C1A67CCD6001C39E6 /* ProjectTabBarController.swift */; };
+		2D219C9F1A6830FA001C39E6 /* IssueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D219C9E1A6830F9001C39E6 /* IssueViewController.swift */; };
+		2DEBD94F1A65704A005268EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEBD94E1A65704A005268EC /* AppDelegate.swift */; };
+		2DEBD9521A65704A005268EC /* Projector.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2DEBD9501A65704A005268EC /* Projector.xcdatamodeld */; };
+		2DEBD9541A65704A005268EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEBD9531A65704A005268EC /* ViewController.swift */; };
+		2DEBD9571A65704A005268EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEBD9551A65704A005268EC /* Main.storyboard */; };
+		2DEBD9591A65704A005268EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEBD9581A65704A005268EC /* Images.xcassets */; };
+		2DEBD95C1A65704A005268EC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DEBD95A1A65704A005268EC /* LaunchScreen.xib */; };
+		2DEBD9681A65704A005268EC /* ProjectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEBD9671A65704A005268EC /* ProjectorTests.swift */; };
+		2DEBD9721A6668C1005268EC /* ProjectsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEBD9711A6668C1005268EC /* ProjectsTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D1B85631A6ACB2F0069AAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1B855E1A6ACB2F0069AAB4 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		2D1B85651A6ACB2F0069AAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1B855E1A6ACB2F0069AAB4 /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = AlamofireTests;
+		};
+		2D1B85671A6ACB340069AAB4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D1B855E1A6ACB2F0069AAB4 /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = Alamofire;
+		};
+		2DEBD9621A65704A005268EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DEBD9411A657049005268EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DEBD9481A65704A005268EC;
+			remoteInfo = "RedmineProject-3.0";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D04E4251A6ABE7F004727A4 /* MembershipsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembershipsTableViewController.swift; sourceTree = "<group>"; };
+		2D04E4271A6AC0DD004727A4 /* MembershipsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MembershipsTableViewCell.swift; sourceTree = "<group>"; };
+		2D1B855E1A6ACB2F0069AAB4 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "Projector/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		2D219C311A668BD5001C39E6 /* ProjectsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewCell.swift; sourceTree = "<group>"; };
+		2D219C331A669269001C39E6 /* IssuesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssuesTableViewController.swift; sourceTree = "<group>"; };
+		2D219C351A6692CC001C39E6 /* IssuesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssuesTableViewCell.swift; sourceTree = "<group>"; };
+		2D219C371A66A6D6001C39E6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		2D219C931A66B72B001C39E6 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2D219C9A1A67C1B8001C39E6 /* ProjecData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjecData.swift; sourceTree = "<group>"; };
+		2D219C9C1A67CCD6001C39E6 /* ProjectTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTabBarController.swift; sourceTree = "<group>"; };
+		2D219C9E1A6830F9001C39E6 /* IssueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IssueViewController.swift; sourceTree = "<group>"; };
+		2DEBD9491A65704A005268EC /* Projector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Projector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEBD94D1A65704A005268EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEBD94E1A65704A005268EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DEBD9511A65704A005268EC /* Projector.xcdatamodeld */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodeld; name = Projector.xcdatamodeld; path = ../Projector.xcdatamodeld; sourceTree = "<group>"; };
+		2DEBD9531A65704A005268EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2DEBD9561A65704A005268EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DEBD9581A65704A005268EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DEBD95B1A65704A005268EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2DEBD9611A65704A005268EC /* ProjectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DEBD9661A65704A005268EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DEBD9671A65704A005268EC /* ProjectorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectorTests.swift; sourceTree = "<group>"; };
+		2DEBD9711A6668C1005268EC /* ProjectsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DEBD9461A65704A005268EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEBD95E1A65704A005268EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D1B855F1A6ACB2F0069AAB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D1B85641A6ACB2F0069AAB4 /* Alamofire.framework */,
+				2D1B85661A6ACB2F0069AAB4 /* AlamofireTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DEBD9401A657049005268EC = {
+			isa = PBXGroup;
+			children = (
+				2DEBD94B1A65704A005268EC /* Projector */,
+				2DEBD9641A65704A005268EC /* ProjectorTests */,
+				2DEBD94A1A65704A005268EC /* Products */,
+				2D1B855E1A6ACB2F0069AAB4 /* Alamofire.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		2DEBD94A1A65704A005268EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DEBD9491A65704A005268EC /* Projector.app */,
+				2DEBD9611A65704A005268EC /* ProjectorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DEBD94B1A65704A005268EC /* Projector */ = {
+			isa = PBXGroup;
+			children = (
+				2DEBD94E1A65704A005268EC /* AppDelegate.swift */,
+				2DEBD9531A65704A005268EC /* ViewController.swift */,
+				2DEBD9551A65704A005268EC /* Main.storyboard */,
+				2DEBD9581A65704A005268EC /* Images.xcassets */,
+				2DEBD95A1A65704A005268EC /* LaunchScreen.xib */,
+				2DEBD9501A65704A005268EC /* Projector.xcdatamodeld */,
+				2DEBD94C1A65704A005268EC /* Supporting Files */,
+				2D219C371A66A6D6001C39E6 /* SwiftyJSON.swift */,
+				2D219C931A66B72B001C39E6 /* LoginViewController.swift */,
+				2DEBD9711A6668C1005268EC /* ProjectsTableViewController.swift */,
+				2D219C311A668BD5001C39E6 /* ProjectsTableViewCell.swift */,
+				2D219C331A669269001C39E6 /* IssuesTableViewController.swift */,
+				2D219C351A6692CC001C39E6 /* IssuesTableViewCell.swift */,
+				2D219C9E1A6830F9001C39E6 /* IssueViewController.swift */,
+				2D219C9A1A67C1B8001C39E6 /* ProjecData.swift */,
+				2D219C9C1A67CCD6001C39E6 /* ProjectTabBarController.swift */,
+				2D04E4251A6ABE7F004727A4 /* MembershipsTableViewController.swift */,
+				2D04E4271A6AC0DD004727A4 /* MembershipsTableViewCell.swift */,
+			);
+			path = Projector;
+			sourceTree = "<group>";
+		};
+		2DEBD94C1A65704A005268EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DEBD94D1A65704A005268EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DEBD9641A65704A005268EC /* ProjectorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DEBD9671A65704A005268EC /* ProjectorTests.swift */,
+				2DEBD9651A65704A005268EC /* Supporting Files */,
+			);
+			path = ProjectorTests;
+			sourceTree = "<group>";
+		};
+		2DEBD9651A65704A005268EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DEBD9661A65704A005268EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DEBD9481A65704A005268EC /* Projector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEBD96B1A65704A005268EC /* Build configuration list for PBXNativeTarget "Projector" */;
+			buildPhases = (
+				2DEBD9451A65704A005268EC /* Sources */,
+				2DEBD9461A65704A005268EC /* Frameworks */,
+				2DEBD9471A65704A005268EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D1B85681A6ACB340069AAB4 /* PBXTargetDependency */,
+			);
+			name = Projector;
+			productName = "RedmineProject-3.0";
+			productReference = 2DEBD9491A65704A005268EC /* Projector.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DEBD9601A65704A005268EC /* ProjectorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DEBD96E1A65704A005268EC /* Build configuration list for PBXNativeTarget "ProjectorTests" */;
+			buildPhases = (
+				2DEBD95D1A65704A005268EC /* Sources */,
+				2DEBD95E1A65704A005268EC /* Frameworks */,
+				2DEBD95F1A65704A005268EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DEBD9631A65704A005268EC /* PBXTargetDependency */,
+			);
+			name = ProjectorTests;
+			productName = "RedmineProject-3.0Tests";
+			productReference = 2DEBD9611A65704A005268EC /* ProjectorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DEBD9411A657049005268EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Volodymyr Tymofiychuk";
+				TargetAttributes = {
+					2DEBD9481A65704A005268EC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					2DEBD9601A65704A005268EC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 2DEBD9481A65704A005268EC;
+					};
+				};
+			};
+			buildConfigurationList = 2DEBD9441A657049005268EC /* Build configuration list for PBXProject "Projector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DEBD9401A657049005268EC;
+			productRefGroup = 2DEBD94A1A65704A005268EC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2D1B855F1A6ACB2F0069AAB4 /* Products */;
+					ProjectRef = 2D1B855E1A6ACB2F0069AAB4 /* Alamofire.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				2DEBD9481A65704A005268EC /* Projector */,
+				2DEBD9601A65704A005268EC /* ProjectorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2D1B85641A6ACB2F0069AAB4 /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 2D1B85631A6ACB2F0069AAB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D1B85661A6ACB2F0069AAB4 /* AlamofireTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = AlamofireTests.xctest;
+			remoteRef = 2D1B85651A6ACB2F0069AAB4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DEBD9471A65704A005268EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEBD9571A65704A005268EC /* Main.storyboard in Resources */,
+				2DEBD95C1A65704A005268EC /* LaunchScreen.xib in Resources */,
+				2DEBD9591A65704A005268EC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEBD95F1A65704A005268EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DEBD9451A65704A005268EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D219C941A66B72B001C39E6 /* LoginViewController.swift in Sources */,
+				2D04E4281A6AC0DD004727A4 /* MembershipsTableViewCell.swift in Sources */,
+				2D219C9B1A67C1B8001C39E6 /* ProjecData.swift in Sources */,
+				2DEBD9541A65704A005268EC /* ViewController.swift in Sources */,
+				2D219C361A6692CC001C39E6 /* IssuesTableViewCell.swift in Sources */,
+				2D04E4261A6ABE7F004727A4 /* MembershipsTableViewController.swift in Sources */,
+				2D219C341A669269001C39E6 /* IssuesTableViewController.swift in Sources */,
+				2D219C381A66A6D6001C39E6 /* SwiftyJSON.swift in Sources */,
+				2DEBD94F1A65704A005268EC /* AppDelegate.swift in Sources */,
+				2D219C321A668BD5001C39E6 /* ProjectsTableViewCell.swift in Sources */,
+				2DEBD9521A65704A005268EC /* Projector.xcdatamodeld in Sources */,
+				2D219C9F1A6830FA001C39E6 /* IssueViewController.swift in Sources */,
+				2DEBD9721A6668C1005268EC /* ProjectsTableViewController.swift in Sources */,
+				2D219C9D1A67CCD6001C39E6 /* ProjectTabBarController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DEBD95D1A65704A005268EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEBD9681A65704A005268EC /* ProjectorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D1B85681A6ACB340069AAB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			targetProxy = 2D1B85671A6ACB340069AAB4 /* PBXContainerItemProxy */;
+		};
+		2DEBD9631A65704A005268EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DEBD9481A65704A005268EC /* Projector */;
+			targetProxy = 2DEBD9621A65704A005268EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DEBD9551A65704A005268EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DEBD9561A65704A005268EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DEBD95A1A65704A005268EC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DEBD95B1A65704A005268EC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DEBD9691A65704A005268EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DEBD96A1A65704A005268EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DEBD96C1A65704A005268EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Projector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Projector;
+			};
+			name = Debug;
+		};
+		2DEBD96D1A65704A005268EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Projector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Projector;
+			};
+			name = Release;
+		};
+		2DEBD96F1A65704A005268EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Projector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ProjectorTests;
+				TEST_HOST = "";
+			};
+			name = Debug;
+		};
+		2DEBD9701A65704A005268EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Projector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = ProjectorTests;
+				TEST_HOST = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DEBD9441A657049005268EC /* Build configuration list for PBXProject "Projector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEBD9691A65704A005268EC /* Debug */,
+				2DEBD96A1A65704A005268EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEBD96B1A65704A005268EC /* Build configuration list for PBXNativeTarget "Projector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEBD96C1A65704A005268EC /* Debug */,
+				2DEBD96D1A65704A005268EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DEBD96E1A65704A005268EC /* Build configuration list for PBXNativeTarget "ProjectorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DEBD96F1A65704A005268EC /* Debug */,
+				2DEBD9701A65704A005268EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2DEBD9501A65704A005268EC /* Projector.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2DEBD9511A65704A005268EC /* Projector.xcdatamodeld */,
+			);
+			currentVersion = 2DEBD9511A65704A005268EC /* Projector.xcdatamodeld */;
+			name = Projector.xcdatamodeld;
+			path = RedmineProject_3_0.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2DEBD9411A657049005268EC /* Project object */;
+}
